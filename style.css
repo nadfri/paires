@@ -92,8 +92,8 @@ img{
 
     border: solid 2px violet;
     border-radius: 5px;
-    width: 20vw;
-    height: 20vw;
+    width: 50vw;
+    height: 30vw;
     font-size: 4vw;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
