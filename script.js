@@ -19,6 +19,9 @@ const tab = [
     "img/14.jpg", "img/14.jpg"
 ];
 
+for (let image of images) //disabled right click
+    image.oncontextmenu = (e) => e.preventDefault();
+
 randomize(tab);
 for (let i=0; i<tab.length; i++) images[i].src = tab[i];
 
