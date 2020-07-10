@@ -2,8 +2,8 @@ body{
     background-image: url(img/wallpaper.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
 }
 
 .container{
@@ -12,7 +12,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-gap: 1vw;
-
+    height: 93%;
 }
 
 .box{
@@ -38,7 +38,6 @@ img{
 .hidden{
     opacity: 0;
 }
-
 
 .star{
     background-image: url(img/carte.jpg);
