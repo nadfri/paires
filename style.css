@@ -3,7 +3,7 @@ body{
     background-position: center;
     background-size: cover;
     height: calc(var(--vh, 1vh) * 100);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container{
@@ -134,6 +134,7 @@ img{
     .container{
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        overflow-y: auto;
     }
 }
  
