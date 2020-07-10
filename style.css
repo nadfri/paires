@@ -12,7 +12,6 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-gap: 1vw;
-    height: 93%;
 }
 
 .box{
