@@ -41,7 +41,7 @@
 // // );
 
 /******* */
-const cacheName = "files-cache-v1"; //change le nom pour mettre à jour le cache
+const cacheName = "files-cache-v3"; //change le nom pour mettre à jour le cache
 
 const contentToCache = ["/paires/", "/paires/index.html"];
 
@@ -49,7 +49,7 @@ const contentToCache = ["/paires/", "/paires/index.html"];
 self.addEventListener("install", (e) => {
 	console.log("Service Worker Installation");
 	e.waitUntil(
-		caches.open("files-cache-v1").then((cache) => {
+		caches.open(cacheName).then((cache) => {
 			console.log("Service Worker-Mise en cache globale");
 			return cache.addAll(contentToCache);
 		})
