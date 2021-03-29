@@ -107,7 +107,7 @@ function randomize(tab) {
 //Register service worker to control making site work offline
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("paires/sw.js", { scope: "/paires/" })
+    .register("sw.js", { scope: "/paires/" })
     .then(function () {
       console.log("Service Worker for paires Registered");
     });
