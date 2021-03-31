@@ -41,7 +41,7 @@
 // // );
 
 /******* */
-const cacheName = "files-cache-v2"; //change le nom pour mettre à jour le cache
+const cacheName = "files-cache-v1"; //change le nom pour mettre à jour le cache
 
 const contentToCache = ["/paires/", "/paires/index.html"];
 
